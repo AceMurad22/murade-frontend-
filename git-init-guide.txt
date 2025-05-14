@@ -1,0 +1,15 @@
+# GitHub Upload Guide for Muradé Store
+
+## Terminal Commands to Run:
+
+git init
+git add .
+git commit -m "Initial commit for Muradé"
+git branch -M main
+git remote add origin https://github.com/YOUR_USERNAME/store-murade-official.git
+git push -u origin main
+
+## Notes:
+- Replace `YOUR_USERNAME` with your GitHub username.
+- Make sure your repo `store-murade-official` is created on GitHub.
+- Then go to Vercel.com and link this repository for instant deployment.
